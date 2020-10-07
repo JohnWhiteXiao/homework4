@@ -24,13 +24,12 @@ h2{
 nav li{
   display:inline;
   padding-right:20px;
-  /* Remove the underline from all links in the navigation */
-  text-decoration: none;
 }
 
 nav a{
   color: black;
   font-weight: bold;
+  /* Remove the underline from all links in the navigation */
   text-decoration: none; 
 }
 
@@ -39,7 +38,7 @@ nav a{
 links in the navigation are in the hover or focus state.*/
 
 /* When the mouse hovers over any link in the navigation add an underline under the link. */
-nav li:hover{
+nav a:hover{
   text-decoration: underline;
 }
 
